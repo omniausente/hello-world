@@ -12,8 +12,11 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        String message = "Hello World!";
-        message = message + " Additional string";
+        String message = "Hello";
+        System.out.println(message);
+        String message_append = " World!";
+        System.out.println(message_append);
+        message = message + message_append;
         System.out.println(message);
     }
 }
