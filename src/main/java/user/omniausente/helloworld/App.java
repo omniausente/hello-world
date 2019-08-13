@@ -13,6 +13,7 @@ public final class App {
      */
     public static void main(String[] args) {
         String message = "Hello World!";
+        message = message + " Additional string";
         System.out.println(message);
     }
 }
